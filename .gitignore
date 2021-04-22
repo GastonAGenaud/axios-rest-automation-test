@@ -36,8 +36,8 @@ node_modules
 coverage
 
 #REPORTS
-cucumber.json
-/test/report
+#cucumber.json // remover para evitar la carga en el repositorio de las pruebas anteriores en caso de implementar en ci y contar con artifacts
+#test/report //  
 
 #ENVIROMENT
 variables
