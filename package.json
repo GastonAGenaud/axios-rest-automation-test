@@ -1,6 +1,6 @@
 {
   "name": "praga-https-test",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "https call automation library using axios and cucumber. It is developed for my personal portfolio Gaston Genaud.",
   "main": "index.js",
   "scripts": {
