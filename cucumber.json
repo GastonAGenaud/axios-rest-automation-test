@@ -1,0 +1,180 @@
+[
+  {
+    "description": "  In order manage directory\n  As a QA Automation\n  I want to make sure CRUD operations through REST API works fine",
+    "keyword": "Feature",
+    "name": "User Routes",
+    "line": 2,
+    "id": "user-routes",
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      }
+    ],
+    "uri": "src\\features\\UserRoutes.feature",
+    "elements": [
+      {
+        "id": "user-routes;list-users",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "list users",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "A page 1",
+            "match": {
+              "location": "src\\steps\\UserRoutes.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I send GET request to /users?page=",
+            "match": {
+              "location": "src\\steps\\UserRoutes.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 522000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I get response code 200",
+            "match": {
+              "location": "src\\steps\\UserRoutes.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-routes;list-users",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "list users",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "A page 2",
+            "match": {
+              "location": "src\\steps\\UserRoutes.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I send GET request to /users?page=",
+            "match": {
+              "location": "src\\steps\\UserRoutes.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 511000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I get response code 200",
+            "match": {
+              "location": "src\\steps\\UserRoutes.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-routes;create-user",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "create user",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "A body { \"name\": \"morpheus\", \"job\": \"leader\" }",
+            "match": {
+              "location": "src\\steps\\UserRoutes.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I send POST request to /users",
+            "match": {
+              "location": "src\\steps\\UserRoutes.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 802000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I get response code 201",
+            "match": {
+              "location": "src\\steps\\UserRoutes.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
