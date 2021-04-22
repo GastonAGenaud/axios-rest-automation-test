@@ -15,7 +15,7 @@ When('I send POST request to {}', async function (path) {
     this.context['response'] = await restHelper.postData(`${process.env.SERVICE_URL}${path}`, this.context['request']);
 })
 
-When('I call GET request to {}', async function (path) {
+When('I send GET request to {}', async function (path) {
     this.context['response'] = await restHelper.getData(`${process.env.SERVICE_URL}${path+data}`);
 })
 
