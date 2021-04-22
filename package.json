@@ -2,7 +2,6 @@
   "name": "praga-https-test",
   "version": "1.0.0",
   "description": "https call automation library using axios and cucumber. It is developed for my personal portfolio Gaston Genaud.",
-  "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/cucumber-js -f json:cucumber.json src/features/ -r src/steps/ --parallel 3 && node ./report.js",
     "test:smoke": "./node_modules/.bin/cucumber-js -f json:cucumber.json src/features/ -r src/steps/ --tags '@smoke'",
