@@ -4,6 +4,10 @@ Libreria para la automatización de llamados API REST utilizando AXIOS para los 
 ```
 npm i
 ```
+#### RUN 
+```
+npm run test
+```
 #### web page con APIS REST de pruebas 
 
 https://reqres.in/
