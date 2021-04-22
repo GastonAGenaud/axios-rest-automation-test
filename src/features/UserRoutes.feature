@@ -14,7 +14,7 @@ Feature: User Routes
       |    1   |
       |    2   |
 
-  Scenario Outline: renew a user the firebase token
+  Scenario Outline: create user
     Given A body <request>
     When I send POST request to /users
     Then I get response code 201
