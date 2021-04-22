@@ -1,0 +1,19 @@
+{
+  "name": "praga-https-test",
+  "version": "1.0.0",
+  "description": "https call automation library using axios and cucumber. It is developed for my personal portfolio Gaston Genaud.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GastonAGenaud/praga-https-test.git"
+  },
+  "author": "Gaston Alejandro Genaud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GastonAGenaud/praga-https-test/issues"
+  },
+  "homepage": "https://github.com/GastonAGenaud/praga-https-test#readme"
+}
